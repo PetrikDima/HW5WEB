@@ -30,5 +30,4 @@ if __name__ == '__main__':
     c.start()
     d.start()
     end = time()
-    with open('Результати після використання процесів.txt', 'a') as file:
-        file.write(f'Час виконання: {round(end-start, 3)}\n')
+    print(f'Time: {round(end-start, 3)}')

@@ -29,5 +29,4 @@ assert d == [1, 2, 4, 5, 7, 10, 14, 20, 28, 35, 70, 140, 76079, 152158, 304316, 
 
 
 if __name__ == '__main__':
-    with open('Результати до використання процесів.txt', 'a') as file:
-        file.write(f'Час виконання: {round(end-start, 3)}\n')
+    print(f'Time: {round(end - start, 3)}')
